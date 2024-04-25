@@ -1,0 +1,87 @@
+/* App.css */
+.search-bar-container {
+  margin-bottom: 20px;
+  
+}
+
+.search-bar-container form {
+  display: flex;
+  align-items: center;
+  background-color: #f0f0f0;
+  border-radius: 4px;
+  padding: 8px;
+}
+
+.search-bar-container input[type="text"] {
+  flex: 1;
+  padding: 8px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+}
+
+.search-bar-container button {
+  padding: 8px 16px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+/* App.css */
+.header {
+  text-align: center;
+  font-size: 36px;
+  color: #ccc;
+  margin-bottom: 20px;
+  
+  font-family:  "Josefin Sans" , Arial, sans-serif;
+}
+
+/* App.css */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.header {
+  font-size: 100px;
+  color:rgba(255, 255, 255, 0.8);
+  background-color: rgba(0, 0, 0, 0.2);
+  padding:20px;
+  border-radius: 25px;
+  margin-bottom: 20px;
+}
+
+.search-bar-container {
+  margin-bottom: 20px;
+}
+
+
+@font-face {
+  font-family: 'Josefin Sans';
+  src: url('./fonts/Josefin_Sans/static/JosefinSans-Thin.ttf') format('truetype'); 
+  /* Add additional src declarations for different font formats if needed */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: url("https://hdwallpapers2013.com/wp-content/uploads/2013/03/Sky-Wallpaper.jpg"); 
+  
+}
+
+@media (max-width: 768px) {
+
+.header{
+  width: 50%;
+  font-size: 2rem;
+}
+
+}

@@ -1,0 +1,47 @@
+/* WeatherCard.css */
+.weather-card {
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.2);
+    width: 600px; /* Adjust width as needed */
+    margin: auto;
+    color:white;
+  }
+.weather-card .icon{
+    font-size: 2rem;
+}
+.left {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.right {
+  flex: 1;
+}
+
+@media (max-width: 768px) { /* Adjust screen width breakpoint as needed */
+  .weather-card {
+    flex-direction: column;
+    width:50%;
+  }
+
+  .left, .right {
+    flex: none;
+    width: 100%;
+  }
+}
+
+.weather-card.day {
+    background-image: url('https://img.freepik.com/free-photo/blue-sky-background-with-clouds_1017-21758.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; /* Replace with path to day background image */
+    color:black;
+  }
+  
+  .weather-card.night {
+    background-image: url('https://img.freepik.com/free-vector/starry-night-sky-wallpaper-perfect-combination-science-art_1017-43427.jpg?size=626&ext=jpg&ga=GA1.1.1224184972.1713225600&semt=ais'); /* Replace with path to night background image */
+    color:white;
+  }
